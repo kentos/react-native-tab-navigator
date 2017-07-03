@@ -3,6 +3,7 @@
 import { Set } from 'immutable';
 import React, {
   PropTypes,
+  ViewPropTypes,
 } from 'react';
 import {
   StyleSheet,
@@ -18,8 +19,8 @@ import TabNavigatorItem from './TabNavigatorItem';
 
 export default class TabNavigator extends React.Component {
   static propTypes = {
-    ...View.propTypes,
-    sceneStyle: View.propTypes.style,
+    ...ViewPropTypes,
+    sceneStyle: ViewPropTypes.style,
     tabBarStyle: TabBar.propTypes.style,
     tabBarShadowStyle: TabBar.propTypes.shadowStyle,
     hidesTabTouch: PropTypes.bool
@@ -143,7 +144,7 @@ export default class TabNavigator extends React.Component {
 
 class SceneContainer extends React.Component {
   static propTypes = {
-    ...View.propTypes,
+    ...ViewPropTypes,
     selected: PropTypes.bool,
   };
 

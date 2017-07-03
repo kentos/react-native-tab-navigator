@@ -1,6 +1,7 @@
 'use strict';
 import React, {
   PropTypes,
+  ViewPropTypes,
 } from 'react';
 import {
   StyleSheet,
@@ -22,7 +23,7 @@ export default class Tab extends React.Component {
     onPress: PropTypes.func,
     hidesTabTouch: PropTypes.bool,
     allowFontScaling: PropTypes.bool,
-    style: View.propTypes.style,
+    style: ViewPropTypes.style,
   };
 
   constructor(props, context) {
