@@ -3,11 +3,11 @@
 import { Set } from 'immutable';
 import React, {
   PropTypes,
-  ViewPropTypes,
 } from 'react';
 import {
   StyleSheet,
   View,
+  ViewPropTypes,
 } from 'react-native';
 
 import Badge from './Badge';

@@ -1,7 +1,6 @@
 'use strict';
 import React, {
   PropTypes,
-  ViewPropTypes,
 } from 'react';
 import {
   StyleSheet,
@@ -10,6 +9,7 @@ import {
   TouchableNativeFeedback,
   Platform,
   View,
+  ViewPropTypes,
 } from 'react-native';
 
 import Layout from './Layout';

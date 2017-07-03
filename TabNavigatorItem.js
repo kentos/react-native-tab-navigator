@@ -2,11 +2,11 @@
 
 import React, {
   PropTypes,
-  ViewPropTypes,
 } from 'react';
 import {
   Text,
   View,
+  ViewPropTypes
 } from 'react-native';
 
 export default class TabNavigatorItem extends React.Component {

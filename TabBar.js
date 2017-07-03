@@ -1,11 +1,12 @@
 'use strict';
 
-import React, { ViewPropTypes} from 'react';
+import React from 'react';
 import {
   Animated,
   Platform,
   StyleSheet,
   View,
+  ViewPropTypes,
 } from 'react-native';
 
 import Layout from './Layout';
